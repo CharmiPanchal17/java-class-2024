@@ -1,0 +1,18 @@
+1. What is IDE?
+IDE in full is Integrated Development Environment. An IDE is a software used for building applications 
+that combine together in a single graphical user interface.
+
+It has integrated tools like code editor, code compiler and code debugger.
+Developers use IDEs because they improve productivity, code quality, and overall development experience. 
+By integrating activities like editing code, building executables, debugging, and testing.
+
+Examples of java ides include: 
+Eclipse
+NetBeans
+IntelliJ IDEA
+BlueJ
+JCreator
+
+2.How to keep track of java code in java project?
+By using platform hosted online to manage java projects and keep track of the codes.
+Platforms like GitHub, BitBucket, ProjectLocker, GitLab and many others help keep track of java projects.
