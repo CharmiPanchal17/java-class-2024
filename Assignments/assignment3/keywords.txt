@@ -1,0 +1,18 @@
+Key words in java are reserved words that represent predefined actions in java programming
+Examplesof Java key words are;
+Abstract
+Assert
+Break
+Case
+Catch
+Class 
+Const
+Continue
+Default
+Do
+Else 
+Enum
+Extends
+Final
+For
+If
