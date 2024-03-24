@@ -1,0 +1,16 @@
+There are two main types of data types in java;
+1. primitive datatype- these store actual value, more memory efficient and are faster to access.
+                       there are 8 main types under primitive;
+                       - boolean
+                       - byte
+                       - short
+                       - long
+                       - int
+                       - float
+                       - double
+                       - char
+
+2. reference datatype- these store memory addresses and complex objects and share data across different program parts.
+                        under reference we have;
+                        - strings
+                        - arrays
