@@ -1,5 +1,5 @@
 Key words in java are reserved words that represent predefined actions in java programming
-Examplesof Java key words are;
+Examples of Java key words are;
 Abstract
 Assert
 Break
@@ -15,4 +15,4 @@ Enum
 Extends
 Final
 For
-If
+If etc
