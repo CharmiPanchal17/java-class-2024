@@ -11,7 +11,7 @@ public class GuiButton {
 
         button.setText("Click on me!");
 
-        frame.add(button);
+        frame.getContentPane().add(button);
 
         frame.setSize(500, 400);
 
