@@ -1,0 +1,13 @@
+When are Do-while loops used?
+Do-while loops are used when the statement is wanted to be executed before the condition 
+while while loops are used when the condition is wanted to be executed before the statement.
+
+Differences between while and do-while loops.
+
+1.While loop is entry controlled while Do-While loop is exit controlled.
+
+2.In While loops, the condition is checked first and then the statement is executed. 
+And for the Do-while loops, the statement is executed before the condition is checked.
+
+3. In While loops the condition statement is at the beginning while in Do-while loops,
+the condition statement is at the end of the loop.
