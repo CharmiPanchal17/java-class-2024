@@ -1,5 +1,5 @@
-//how to return an object from our class
-public class Number {
+public class Number {           //how to return an object from our class
+
     
     public void display(int num){
         System.out.println("Number: "+ num);

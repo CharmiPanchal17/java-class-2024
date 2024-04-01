@@ -38,7 +38,7 @@ public class BreakWhileLoop {
 
         int my_num = 5;
 
-        int trials = 0;
+    
 
         Scanner input = new Scanner(System.in);
 
@@ -46,7 +46,6 @@ public class BreakWhileLoop {
             
             System.out.print("Guess any number between 1 and 10: ");
             int user_num = input.nextInt();
-            trials++;
 
             if (user_num == my_num) {
                 System.out.println("You guessed the right number!");

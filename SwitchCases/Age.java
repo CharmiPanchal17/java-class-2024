@@ -30,6 +30,8 @@ public class Age {
                 System.out.println("You are old.");
                 break;
         }
+
+        ageInput.close();
     }
 }
 
