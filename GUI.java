@@ -11,3 +11,4 @@ public class GUI {
         JOptionPane.showMessageDialog(null, "Hello " + name + "\nYour age is: " + age + " years.\nYour height is: " + height);
     }
 }
+

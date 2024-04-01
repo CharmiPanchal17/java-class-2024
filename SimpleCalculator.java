@@ -8,9 +8,7 @@ public class SimpleCalculator {
         JFrame frame = new JFrame("Simple Calculator");
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(null); // Use absolute positioning
-
-        // Create components
+        frame.setLayout(null); // Use absolute positionings
         JLabel numLabel1 = new JLabel("Number 1:");
         numLabel1.setBounds(20, 20, 80, 25);//
         JTextField numField1 = new JTextField();
