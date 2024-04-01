@@ -35,26 +35,26 @@ public class Calculator {
         addButton.setBounds(20, 80, 100, 20);
 
         JButton subButton = new JButton("Subtract");
-        subButton.setBounds(20, 100, 100, 20);
+        subButton.setBounds(20, 105, 100, 20);
 
         JButton mulButton = new JButton("Multiply");
         mulButton.setBounds(150, 80, 100, 20);
 
         JButton divButton = new JButton("Divide");
-        divButton.setBounds(150, 100, 100, 20);
+        divButton.setBounds(150, 105, 100, 20);
 
         // creating labels to show the results of the operation
         JLabel addresult = new JLabel();
-        addresult.setBounds(20, 120, 250, 25);
+        addresult.setBounds(20, 125, 250, 25);
 
         JLabel subresult = new JLabel();
-        subresult.setBounds(20, 150, 250, 25);
+        subresult.setBounds(20, 155, 250, 25);
 
         JLabel mulresult = new JLabel();
-        mulresult.setBounds(20, 180, 250, 25);
+        mulresult.setBounds(20, 185, 250, 25);
 
         JLabel divresult = new JLabel();
-        divresult.setBounds(20, 210, 250, 25);
+        divresult.setBounds(20, 215, 250, 25);
 
 
 
@@ -100,18 +100,14 @@ public class Calculator {
 
             @Override
             public void actionPerformed(ActionEvent e){
-                try {
-                    // Get input from text fields
+                try {                   
                     double num3 = Double.parseDouble(num1Text.getText());
                     double num4 = Double.parseDouble(num2Text.getText());
 
-                    // Perform addition
                     double sub_result = num3 - num4;
 
-                    // Display result
                     subresult.setText("Subtraction Result: " + sub_result);
                 } catch (NumberFormatException ex) {
-                    // Handle non-numeric input
                     subresult.setText("Invalid input");
                 }
             }
@@ -123,17 +119,15 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e){
                 try {
-                    // Get input from text fields
+                    
                     double num5 = Double.parseDouble(num1Text.getText());
                     double num6 = Double.parseDouble(num2Text.getText());
 
-                    // Perform addition
                     double mul_result = num5 * num6;
 
-                    // Display result
                     mulresult.setText("Multiplication Result: " + mul_result);
                 } catch (NumberFormatException ex) {
-                    // Handle non-numeric input
+                    
                     mulresult.setText("Invalid input");
                 }
             }
@@ -145,17 +139,14 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e){
                 try {
-                    // Get input from text fields
                     double num7 = Double.parseDouble(num1Text.getText());
                     double num8 = Double.parseDouble(num2Text.getText());
 
-                    // Perform addition
                     double div_result = num7 / num8;
 
-                    // Display result
                     divresult.setText("Division Result: " + div_result);
                 } catch (NumberFormatException ex) {
-                    // Handle non-numeric input
+                    
                     divresult.setText("Invalid input");
                 }
             }
