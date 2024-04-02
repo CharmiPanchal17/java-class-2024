@@ -1,0 +1,5 @@
+// inheritance is a mechanism where a child class is derived from a parent class
+// the child class inherits attributes and methods from its parent class
+// this allows to reuse code and extend functionality 
+
+
