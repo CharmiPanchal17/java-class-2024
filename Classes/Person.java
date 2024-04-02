@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Person {
 
     // fields
-    private String name;
+    private String name;   //private fields are not accessed outside the class Person
     private int age;
 
     // constructor
-    public Person(String name, int age) {
-        this.name = name;
+    public Person(String name, int age) {     //a constructor has parenthisis while a class doesnot
+        this.name = name;           //"this" is the current instance
         this.age = age;
     }
 
@@ -18,18 +18,20 @@ public class Person {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-        String name = input.nextLine();
+        name = input.nextLine();
 
         System.out.print("Enter your age: ");
-        int age = input.nextInt();
+        age = input.nextInt();
 
         System.out.println("Hello!!!\nYour name is: " + name + "\nYour age is: " + age + " years");
+
+        input.close();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {          //the main method should always be there. it s from which object are created
  
         Person person1 = new Person("null", 0);  // we have to set default values whcih can be overriden b user input eg on line 20..
-        person1.greet();
+        person1.greet();                             // the "new" keyword evokes the constructor
     }
     
 }
