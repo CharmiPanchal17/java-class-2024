@@ -29,7 +29,7 @@ public class Overloading {
         System.out.print("Enter student name: ");
         name = input.nextLine();
 
-        System.out.printf("Student's name is: %s\nox", name);
+        System.out.printf("Student's name is: %s\n", name);
     }
 
     public void StudentAge(){

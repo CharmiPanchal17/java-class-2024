@@ -28,9 +28,9 @@ public class Person {
         input.close();
     }
 
-    public static void main(String[] args) {          //the main method should always be there. it s from which object are created
+    public static void main(String[] args) {          //the main method should always be there. it is from which objects are created
  
-        Person person1 = new Person("null", 0);  // we have to set default values whcih can be overriden b user input eg on line 20..
+        Person person1 = new Person("null", 0);  // we have to set default values which can be overriden by user input eg on line 20..
         person1.greet();                             // the "new" keyword evokes the constructor
     }
     

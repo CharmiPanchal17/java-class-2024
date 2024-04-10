@@ -13,7 +13,7 @@ public class SimpleGUIExample {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);     //this helps in closing the frame after clicking on the cross otherwise the frame will keep on looping and will no be closed 
 
-        frame.setVisible(true);     //this will make the frame viible to the user
+        frame.setVisible(true);     //this will make the frame visible to the user
 
     }
 }
