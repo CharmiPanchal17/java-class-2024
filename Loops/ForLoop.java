@@ -3,7 +3,7 @@ public class ForLoop{
     public static void main(String[] args) {
 
         // for loop example 
-        for( int x = 1; x<= 10; x++){
+        for( int x = 1; x<= 10; x++){      //x++ is post increment which increases value of x after execution of the previous conditions, while ++x does it before
             System.out.println(x);
         }
 
