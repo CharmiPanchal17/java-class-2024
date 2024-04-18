@@ -53,5 +53,6 @@ public class Packages {
         TimeZone timeZoneDefault = TimeZone.getDefault();
         System.out.println("\nThe default time zone is: " + timeZoneDefault);
 
+        userInput.close();
     }
 }
